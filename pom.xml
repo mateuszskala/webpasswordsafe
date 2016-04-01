@@ -40,11 +40,15 @@
 
  <properties>
   <gwt.version>2.5.1</gwt.version>
-  <gxt.version>2.2.5</gxt.version>
+  <gxt.version>2.2.4</gxt.version>
   <maven.compiler.source>1.6</maven.compiler.source>
   <maven.compiler.target>1.6</maven.compiler.target>
  </properties>
  
+ <repository>
+    <id>sonatype-staging</id>
+    <url>https://oss.sonatype.org/content/repositories/staging/</url>
+  </repository>
  <repositories>
   <repository>
    <id>gilead-maven-repo</id>
