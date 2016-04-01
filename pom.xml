@@ -45,11 +45,12 @@
   <maven.compiler.target>1.6</maven.compiler.target>
  </properties>
  
- <repository>
+
+ <repositories>
+ 	 <repository>
     <id>sonatype-staging</id>
     <url>https://oss.sonatype.org/content/repositories/staging/</url>
   </repository>
- <repositories>
   <repository>
    <id>gilead-maven-repo</id>
    <name>Gilead repo</name>
